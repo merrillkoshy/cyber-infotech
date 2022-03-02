@@ -1,31 +1,27 @@
-import React from 'react';
-import BlogDetailsMain from '../components/BlogDetails/BlogDetailsMain';
-import Header from '../components/Layout/Header/Header';
-import Footer from '../components/Layout/Footer/Footer';
+import React from "react"
+import Header from "../components/Layout/Header/Header"
+import Footer from "../components/Layout/Footer/Footer"
 
 class BlogDetails extends React.Component {
+	static getInitialProps({ store }) {}
 
-    static getInitialProps({ store }) { }
+	constructor(props) {
+		super(props)
+	}
 
-    constructor(props) {
-        super(props);
-    }
-
-    render() {
-        return (
-            <React.Fragment>
-                <Header />
-                <main>
-                    {/* Blog Main */}
-                    <BlogDetailsMain />
-                    {/* Blog Main End */}
-                </main>
-                <Footer />
-            </React.Fragment>
-        );
-    }
+	render() {
+		return (
+			<React.Fragment>
+				<Header />
+				<main>
+					{/* Blog Main */}
+					<></>
+					{/* Blog Main End */}
+				</main>
+				<Footer />
+			</React.Fragment>
+		)
+	}
 }
 
-
-export default BlogDetails;
-
+export default BlogDetails
