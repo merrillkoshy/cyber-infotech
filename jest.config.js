@@ -4,7 +4,7 @@ module.exports = {
 	preset: "ts-jest",
 	setupFilesAfterEnv: ["<rootDir>/setupTests.ts"],
 	transform: {
-		"^.+\\.tsx?$": "ts-jest",
+		"^.+\\.tsx?$": ["babel-jest", "ts-jest", { presets: ["next/babel"] }],
 	},
 	testRegex: "(/__tests__/.*|(\\.|/)(test|spec))\\.tsx?$",
 	moduleDirectories: ["node_modules", "src"],
