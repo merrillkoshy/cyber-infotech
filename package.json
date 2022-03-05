@@ -77,8 +77,11 @@
 		"@types/bootstrap": "^5.1.9",
 		"@types/enzyme": "^3.10.11",
 		"@types/jest": "^27.4.1",
+		"@types/react": "^17.0.39",
+		"@types/react-dom": "^17.0.13",
 		"enzyme-to-json": "^3.6.2",
 		"eslint": "^8.10.0",
+		"eslint-config-react": "^1.1.7",
 		"jest": "^27.5.1"
 	}
 }

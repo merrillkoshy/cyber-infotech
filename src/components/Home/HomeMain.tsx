@@ -22,12 +22,6 @@ import Trust from "./TrustSection"
 import Quality from "./QualitySection"
 import Map from "./MapSection"
 import Project from "./ProjectSection"
-const BlogSlider = dynamic(
-	() => import("../Elements/Slider/BlogSliderSection"),
-	{
-		ssr: false,
-	}
-)
 
 class HomeMain extends Component {
 	render() {
@@ -64,10 +58,6 @@ class HomeMain extends Component {
 				{/* trust-start */}
 				<Trust />
 				{/* trust-end */}
-
-				{/* blog-start */}
-				<BlogSlider />
-				{/* blog-end */}
 
 				{/* quality-start */}
 				<Quality />

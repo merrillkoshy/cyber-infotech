@@ -5,11 +5,11 @@ import AboutMain from "../components/About/AboutMain"
 
 const AboutPage = () => {
 	return (
-		<React.Fragment>
+		<>
 			<Header />
 			<AboutMain />
 			<Footer />
-		</React.Fragment>
+		</>
 	)
 }
 
