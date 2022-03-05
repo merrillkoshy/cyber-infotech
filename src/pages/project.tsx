@@ -3,15 +3,7 @@ import Header from '../components/Layout/Header/Header';
 import Footer from '../components/Layout/Footer/Footer';
 import ProjectMain from '../components/Project/ProjectMain';
 
-class ProjectPage extends React.Component {
-
-    static getInitialProps({store}) {}
-
-    constructor(props) {
-        super(props);
-    }
-
-    render() {
+const ProjectPage = () =>{
         return (
             <React.Fragment>
             <Header />
@@ -20,7 +12,7 @@ class ProjectPage extends React.Component {
             </React.Fragment>
         );
     }
-}
+
 
 
 export default ProjectPage;

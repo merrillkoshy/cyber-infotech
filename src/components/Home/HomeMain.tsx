@@ -1,83 +1,84 @@
-import React, { Component } from 'react';
-import Video from '../Elements/Video/VideoSection';
-import About from './AboutSection';
-import Cta from './CtaSection';
-import Service from './ServiceSection';
-import dynamic from 'next/dynamic';
-const HomeSlider = dynamic(() => import('../Elements/Slider/HomeSliderSection'), {
-    ssr: false
-  })
-const Testimonial = dynamic(() => import('../Elements/Testimonials/TestimonialsSection'), {
-    ssr: false
-  })
-const Brand = dynamic(() => import('../Elements/Brand/BrandSection'), {
-    ssr: false
+import React, { Component } from "react"
+import About from "./AboutSection"
+import Cta from "./CtaSection"
+import Service from "./ServiceSection"
+import dynamic from "next/dynamic"
+const HomeSlider = dynamic(
+	() => import("../Elements/Slider/HomeSliderSection"),
+	{
+		ssr: false,
+	}
+)
+const Testimonial = dynamic(
+	() => import("../Elements/Testimonials/TestimonialsSection"),
+	{
+		ssr: false,
+	}
+)
+const Brand = dynamic(() => import("../Elements/Brand/BrandSection"), {
+	ssr: false,
 })
-import Trust from './TrustSection';
-import Quality from './QualitySection';
-import Map from './MapSection';
-import Project from './ProjectSection';
-const BlogSlider = dynamic(() => import('../Elements/Slider/BlogSliderSection'), {
-    ssr: false
-})
+import Trust from "./TrustSection"
+import Quality from "./QualitySection"
+import Map from "./MapSection"
+import Project from "./ProjectSection"
+const BlogSlider = dynamic(
+	() => import("../Elements/Slider/BlogSliderSection"),
+	{
+		ssr: false,
+	}
+)
 
 class HomeMain extends Component {
-
-    render() {
-
-        return (
-            <main>
-	            {/* slider-start */}
+	render() {
+		return (
+			<main>
+				{/* slider-start */}
 				<HomeSlider />
 				{/* slider-end */}
 
-                {/* service-start */}
+				{/* service-start */}
 				<Service />
 				{/* service-end */}
 
-                {/* cta-start */}
+				{/* cta-start */}
 				<Cta />
 				{/* cta-end */}
 
-                {/* about-start */}
+				{/* about-start */}
 				<About />
 				{/* about-end */}
 
-                {/* project-start */}
+				{/* project-start */}
 				<Project />
 				{/* project-end */}
 
-                {/* video-start */}
-				<Video />
-				{/* video-end */}
-
-                {/* testimonial-start */}
+				{/* testimonial-start */}
 				<Testimonial />
 				{/* testimonial-end */}
 
-                {/* brand-start */}
+				{/* brand-start */}
 				<Brand />
 				{/* brand-end */}
 
-                {/* trust-start */}
+				{/* trust-start */}
 				<Trust />
 				{/* trust-end */}
 
-                {/* blog-start */}
+				{/* blog-start */}
 				<BlogSlider />
 				{/* blog-end */}
 
-                {/* quality-start */}
+				{/* quality-start */}
 				<Quality />
 				{/* quality-end */}
 
-                {/* map-start */}
+				{/* map-start */}
 				<Map />
 				{/* map-end */}
-
-        	</main>
-        );
-    }
+			</main>
+		)
+	}
 }
 
-export default HomeMain;
+export default HomeMain
