@@ -6,7 +6,10 @@ import Link from "next/link"
 const Footer = () => {
 	return (
 		<footer
-			style={{ backgroundImage: `url(${"assets/img/bg/footer-bg.jpg"})` }}
+			style={
+				// { backgroundImage: `url(${ "assets/img/bg/footer-bg.jpg" })` }
+				{ backgroundColor: "#777a7e" }
+			}
 			className="pt-95 position-relative"
 		>
 			<div

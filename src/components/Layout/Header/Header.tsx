@@ -37,7 +37,7 @@ const Header = () => {
 		<React.Fragment>
 			<Head>
 				<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-				<title>Kimox – Digital Agency React, NextJs Template</title>
+				<title>Cyber InfoTech UAE</title>
 			</Head>
 			<header>
 				<div className="transparent-header">
@@ -136,52 +136,6 @@ const Header = () => {
 												<FontAwesomeIcon icon={["fas", "bars"]} />
 											</i>
 										</button>
-									</div>
-								</div>
-								<div className="col-xl-4 d-none d-xl-block">
-									<div className="header-right text-end">
-										<div className="header-social">
-											<a href="#" target="_blank">
-												<i>
-													<FontAwesomeIcon icon={["fab", "twitter"]} />
-												</i>
-											</a>
-											<a href="#" target="_blank">
-												<i>
-													<FontAwesomeIcon icon={["fab", "facebook"]} />
-												</i>
-											</a>
-											<a href="#" target="_blank">
-												<i>
-													<FontAwesomeIcon icon={["fab", "pinterest-p"]} />
-												</i>
-											</a>
-											<a href="#" target="_blank">
-												<i>
-													<FontAwesomeIcon icon={["fab", "instagram"]} />
-												</i>
-											</a>
-										</div>
-										<div className="header-search">
-											<a
-												className="search-btn nav-search search-trigger"
-												href="#!"
-												onClick={() => {
-													setSearchOpen(!searchOpen)
-												}}
-											>
-												<i>
-													<FontAwesomeIcon icon={["fas", "search"]} />
-												</i>
-											</a>
-										</div>
-										<div className="header-btn">
-											<Link href="/about">
-												<a className="theme-btn theme-btn-small">
-													Free Estimate
-												</a>
-											</Link>
-										</div>
 									</div>
 								</div>
 							</div>

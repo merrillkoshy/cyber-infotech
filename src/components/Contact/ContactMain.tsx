@@ -7,7 +7,7 @@ const ContactMain = () => {
 	return (
 		<main>
 			{/* breadcrumb-start */}
-			<Breadcrumb pageTitle="Contct" />
+			<Breadcrumb pageTitle="Contact" />
 			{/* breadcrumb-end */}
 
 			{/* contact-start */}

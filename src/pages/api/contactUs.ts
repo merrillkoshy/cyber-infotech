@@ -9,7 +9,7 @@ const cors = initMiddleware(
 )
 var nodemailer = require("nodemailer")
 let transporter = nodemailer.createTransport({
-	name: "cyberinfotech.com",
+	name: "cyberinfotechuae.com",
 	host: "smtpout.secureserver.net",
 	port: 465,
 	secure: true,
@@ -21,7 +21,9 @@ let transporter = nodemailer.createTransport({
 export default async function handler(req, res) {
 	await cors(req, res)
 	const enquiry = req.body
-	const emailheader = "http://gulfmotorcycles.com/images/EmailHeader-01.png"
+	console.log(enquiry)
+	const emailheader =
+		"https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
 
 	var mailOptions = {
 		from: process.env.EMAIL_USER,

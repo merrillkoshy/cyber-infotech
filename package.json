@@ -52,6 +52,7 @@
 		"react-progressbar.js": "^0.2.0",
 		"react-responsive-modal": "3.5.1",
 		"react-tabs": "^3.2.3",
+		"react-toastify": "^8.2.0",
 		"react-visibility-sensor": "^5.1.1",
 		"sass": "^1.26.9",
 		"src": "^1.1.2",
