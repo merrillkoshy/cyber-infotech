@@ -25,19 +25,19 @@ class ServiceMain extends Component {
 				{/* service-end */}
 
                 {/* whywe-start */}
-                <WhyWeThree />
+                {/* <WhyWeThree /> */}
 				{/* whywe-end */}
 
                 {/* service-start */}
-				<ServiceFour />
+				{/* <ServiceFour /> */}
 				{/* service-end */}
 
                 {/* brand-start */}
-                <BrandFour />
+                {/* <BrandFour /> */}
 				{/* brand-end */}
 
                 {/* Quality-start */}
-                <Quality />
+                {/* <Quality /> */}
 				{/* Quality-end */}
         	</main>
         );

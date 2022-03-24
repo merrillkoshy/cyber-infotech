@@ -5,13 +5,7 @@ import Link from "next/link"
 
 const Footer = () => {
 	return (
-		<footer
-			style={
-				// { backgroundImage: `url(${ "assets/img/bg/footer-bg.jpg" })` }
-				{ backgroundColor: "#777a7e" }
-			}
-			className="pt-95 position-relative"
-		>
+		<footer className="pt-95 position-relative">
 			<div
 				className="common-shape-wrapper wow slideInRight animated"
 				data-wow-delay="0ms"
@@ -40,9 +34,8 @@ const Footer = () => {
 									</Link>
 								</div>
 								<p className="mb-20 pr-35">
-									There are many vari of pass of lorem ipsum availab but the
-									majority have suffered in some form by injected humour or
-									words.
+								We specialize in understanding your company’s IT requirement and providing customized solutions based on the need of the customer.
+
 								</p>
 								<div className="footer-social">
 									<a href="#" target="_blank">
@@ -82,11 +75,11 @@ const Footer = () => {
 											<a>Meet Our Team</a>
 										</Link>
 									</li>
-									<li>
+									{/* <li>
 										<Link href="/project">
 											<a>Our Portfolio</a>
 										</Link>
-									</li>
+									</li> */}
 									<li>
 										<Link href="/contact">
 											<a>Contact</a>
@@ -100,7 +93,7 @@ const Footer = () => {
 								</ul>
 							</div>
 						</div>
-						<div className="col-lg-3 col-sm-6">
+						{/* <div className="col-lg-3 col-sm-6">
 							<div className="widget widget-contact mb-30">
 								<h4 className="widget-title mb-35">Contact</h4>
 								<ul>
@@ -128,7 +121,7 @@ const Footer = () => {
 									</li>
 								</ul>
 							</div>
-						</div>
+						</div> */}
 					</div>
 				</div>
 			</div>

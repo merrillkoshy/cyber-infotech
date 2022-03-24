@@ -4,10 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 const Service = () => {
 	return (
-		<section
-			className="service-area pt-120 pb-130"
-			style={{ backgroundImage: `url(${"assets/img/service/service-bg.jpg"})` }}
-		>
+		<section className="service-area pt-120 pb-130">
 			<div className="container">
 				<div className="row justify-content-between">
 					<div className="col-xxl-5 col-lg-6">
@@ -23,7 +20,14 @@ const Service = () => {
 								The Services <br />
 								We’re Offering
 							</h2>
-							<p className="mb-45">
+							<p className="kservice-text mb-40">
+								Hardware support for Desktops, Laptops, Workstations, and
+								All-in-One computers. We ensure efficient & cost-effective
+								solutions for all kinds of hardware issues, including chip level
+								repairs. With genuine spare parts readily available in stock, we
+								offer unmatched repair turn-around time.
+							</p>
+							{/* <p className="mb-45">
 								There are many variations of passages of lorem ipsum available
 								but the majority have suffered alteration in some form by
 								injected humour.
@@ -39,7 +43,7 @@ const Service = () => {
 								<div className="kservice-author-sign">
 									<span>Jessica Brown</span>
 								</div>
-							</div>
+							</div> */}
 						</div>
 					</div>
 					<div className="col-xxl-6 col-lg-6">
@@ -58,10 +62,7 @@ const Service = () => {
 									<div className="kservice-content">
 										<h5 className="kservice-content-title">
 											<Link href="/service-details">
-												<a>
-													Website <br />
-													Development
-												</a>
+												<a>Servers</a>
 											</Link>
 										</h5>
 									</div>
@@ -77,10 +78,7 @@ const Service = () => {
 									<div className="kservice-content">
 										<h5 className="kservice-content-title">
 											<Link href="/service-details">
-												<a>
-													Graphic <br />
-													Designing
-												</a>
+												<a>Peripherals</a>
 											</Link>
 										</h5>
 									</div>
@@ -96,10 +94,7 @@ const Service = () => {
 									<div className="kservice-content">
 										<h5 className="kservice-content-title">
 											<Link href="/service-details">
-												<a>
-													SEO & Content <br />
-													writting
-												</a>
+												<a>Data Storage & Backup</a>
 											</Link>
 										</h5>
 									</div>
@@ -117,10 +112,7 @@ const Service = () => {
 									<div className="kservice-content">
 										<h5 className="kservice-content-title">
 											<Link href="/service-details">
-												<a>
-													Digital <br />
-													marketing
-												</a>
+												<a>It Hardware Repairs</a>
 											</Link>
 										</h5>
 									</div>

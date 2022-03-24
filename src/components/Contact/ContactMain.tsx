@@ -15,7 +15,7 @@ const ContactMain = () => {
 			{/* contact-end */}
 
 			{/* map-start */}
-			<Map />
+			{/* <Map /> */}
 			{/* map-end */}
 		</main>
 	)

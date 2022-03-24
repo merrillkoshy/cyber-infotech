@@ -29,21 +29,19 @@ const AboutMain = () => {
 			{/* mission-end */}
 
 			{/* testimonial-start */}
-			<div className="mt--30">
-				<Testimonial />
-			</div>
+			<div className="mt--30">{/* <Testimonial /> */}</div>
 			{/* testimonial-end */}
 
 			{/* fact-start */}
-			<FactTwo />
+			{/* <FactTwo /> */}
 			{/* fact-end */}
 
 			{/* why-we-start */}
-			<WhyWeTwo />
+			{/* <WhyWeTwo /> */}
 			{/* why-we-end */}
 
 			{/* brand-start */}
-			<BrandThree />
+			{/* <BrandThree /> */}
 			{/* brand-end */}
 		</main>
 	)

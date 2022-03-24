@@ -14,44 +14,51 @@ const Mission = () => {
 						>
 							<div className="section-title-wrapper mb-25">
 								<h5 className="section-subtitle mb-20">get to know us</h5>
-								<h2 className="section-title mb-35">
-									Our Mission is to become the best agency
-								</h2>
+								<h2 className="section-title mb-35">Our Mission</h2>
 								<p>
-									Lorem Ipsum is simply dummy text of the printing available in
-									the market for free uses.
+									Serve our clients by delivering high professional quality
+									services.
+								</p>
+								<p>
+									We anticipate the needs of our customers and make all efforts
+									to exceed our customers’ expectations.
+								</p>
+								<p>
+									For us, customer satisfaction is the highest priority. We
+									believe in building long-term professional relationships with
+									all our clients
 								</p>
 							</div>
-							<p className="mb-45">
-								Lorem ipsum dolor sit amet nsectetur cing elit. Suspe ndisse
-								suscipit sagittis leo sit met entum is not estibulum dignissim
-								posuere cubilia durae. Leo sit met entum cubilia crae. but also
-								the leap into electronic typesetting.
-							</p>
-							<div className="ktrust-btn">
-								<Link href="/service">
-									<a className="theme-btn border-btn">Discover more</a>
-								</Link>
+
+							<div className="section-title-wrapper mb-25">
+								<h5 className="section-subtitle mb-20">get to know us</h5>
+								<h2 className="section-title mb-35">Our Vision</h2>
+								<p>
+									Our vision is to be the most reliable partner of IT service
+									provider in the competitive global provider in the
+									compettitive Global Market.
+								</p>
 							</div>
 						</div>
 					</div>
 					<div className="col-xl-6 col-lg-6">
-						<div
-							className="kintro-img mb-30"
-							data-aos="fade-right"
-							data-aos-duration="1000"
-						>
-							<img
-								src="assets/img/about/about-img-6.jpg"
-								className="img-fluid"
-								alt="about-img"
-							/>
-							<div className="mission-img-text">
-								<h4>We’re committed to trusted Agency</h4>
-								<Link href="/project">
-									<a>Get Started</a>
-								</Link>
-							</div>
+						<div className="section-title-wrapper mb-25">
+							<p className="about-us-text pt-100">
+								Cyber InfoTech is a market leading company in the field of all
+								IT Related trading and services in UAE under the group of Morris
+								elevators which is established on 2011 in Abu Dhabi who is
+								dealing with elevators and IT supports as per our customers’
+								requirements. We have highly skilled SERA certified engineers,
+								end to end data protection and IT supporters with excellent
+								technical knowledge in the field of it. We are the most reliable
+								partner who is providing most suitable IT services for all our
+								clients in UAE. We offer full-fledged it support for all the
+								clients who is approaching us.
+							</p>
+							<p className="about-us-text pt-100">
+							We specialize in understanding your company’s IT requirement and providing customized solutions based on the need of the customer.
+
+							</p>
 						</div>
 					</div>
 				</div>

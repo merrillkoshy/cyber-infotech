@@ -22,9 +22,9 @@ const Contact = () => {
 									</a>
 								</div>
 								<div className="contact-info-text mt-10">
-									<span>Call Anytime</span>
+									<span>Call Us</span>
 									<h5>
-										<a href="tell:926668880000">92 666 888 0000</a>
+										<a href="tell:971521954262">+971 52 195 4262</a>
 									</h5>
 								</div>
 							</div>
@@ -40,12 +40,12 @@ const Contact = () => {
 									<span>send email</span>
 									<h5>
 										<a href="mailto:needhelp@company.com">
-											needhelp@company.com
+											info@cyberinfotechuae.com
 										</a>{" "}
 									</h5>
 								</div>
 							</div>
-							<div className="single-contact-info d-flex align-items-center">
+							{/* <div className="single-contact-info d-flex align-items-center">
 								<div className="contact-info-icon">
 									<a href="#">
 										<i>
@@ -59,7 +59,7 @@ const Contact = () => {
 										<a href="#">86 Road Broklyn Street, New York</a>
 									</h5>
 								</div>
-							</div>
+							</div> */}
 						</div>
 					</div>
 					<Form />

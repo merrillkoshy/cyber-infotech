@@ -9,7 +9,7 @@ const Breadcrumb = (props: Props) => {
 	return (
 		<section
 			className="page-title-area breadcrumb-spacing"
-			style={{ backgroundImage: `url(${"assets/img/bg/breadcrumb-bg.jpg"})` }}
+			style={{ backgroundImage: `url(${"assets/img/slider/slider-1.jpg"})` }}
 		>
 			<div className="container">
 				<div className="row justify-content-center">

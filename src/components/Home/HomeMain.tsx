@@ -40,31 +40,31 @@ class HomeMain extends Component {
 				{/* cta-end */}
 
 				{/* about-start */}
-				<About />
+				{/* <About /> */}
 				{/* about-end */}
 
 				{/* project-start */}
-				<Project />
+				{/* <Project /> */}
 				{/* project-end */}
 
 				{/* testimonial-start */}
-				<Testimonial />
+				{/* <Testimonial /> */}
 				{/* testimonial-end */}
 
 				{/* brand-start */}
-				<Brand />
+				{/* <Brand /> */}
 				{/* brand-end */}
 
 				{/* trust-start */}
-				<Trust />
+				{/* <Trust /> */}
 				{/* trust-end */}
 
 				{/* quality-start */}
-				<Quality />
+				{/* <Quality /> */}
 				{/* quality-end */}
 
 				{/* map-start */}
-				<Map />
+				{/* <Map /> */}
 				{/* map-end */}
 			</main>
 		)
