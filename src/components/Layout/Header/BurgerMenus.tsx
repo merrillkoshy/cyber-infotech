@@ -50,15 +50,17 @@ const BurgerMenus = ({ setMenuOpen, menuOpen }) => {
 				<div className="side-info-content">
 					<div className="mm-menu">
 						<ul>
-							<li className={home ? "has-droupdown active" : "has-droupdown"}>
+							<li
+							// className={ home ? "has-droupdown active" : "has-droupdown" }
+							>
 								<a
-									onClick={() => {
-										openMobileMenu("home")
-									}}
+								// onClick={() => {
+								// 	openMobileMenu("home")
+								// }}
 								>
 									Home
 								</a>
-								<ul className={home ? "sub-menu active" : "sub-menu"}>
+								{/* <ul className={home ? "sub-menu active" : "sub-menu"}>
 									<li>
 										<Link href="/">
 											<a>Home Style 1</a>
@@ -69,7 +71,7 @@ const BurgerMenus = ({ setMenuOpen, menuOpen }) => {
 											<a>Home Style 2</a>
 										</Link>
 									</li>
-								</ul>
+								</ul> */}
 							</li>
 							<li>
 								<Link href="/about">
@@ -77,16 +79,16 @@ const BurgerMenus = ({ setMenuOpen, menuOpen }) => {
 								</Link>
 							</li>
 							<li
-								className={courses ? "has-droupdown active" : "has-droupdown"}
+							// className={courses ? "has-droupdown active" : "has-droupdown"}
 							>
 								<a
-									onClick={() => {
-										openMobileMenu("courses")
-									}}
+								// onClick={() => {
+								// 	openMobileMenu("courses")
+								// }}
 								>
 									Services
 								</a>
-								<ul className={courses ? "sub-menu active" : "sub-menu"}>
+								{/* <ul className={courses ? "sub-menu active" : "sub-menu"}>
 									<li>
 										<Link href="/service">
 											<a>Services</a>
@@ -97,9 +99,9 @@ const BurgerMenus = ({ setMenuOpen, menuOpen }) => {
 											<a>Services Details</a>
 										</Link>
 									</li>
-								</ul>
+								</ul> */}
 							</li>
-							<li
+							{/* <li
 								className={project ? "has-droupdown active" : "has-droupdown"}
 							>
 								<a
@@ -142,7 +144,7 @@ const BurgerMenus = ({ setMenuOpen, menuOpen }) => {
 										</Link>
 									</li>
 								</ul>
-							</li>
+							</li> */}
 							<li>
 								<Link href="/contact">
 									<a>Contact</a>
@@ -156,19 +158,13 @@ const BurgerMenus = ({ setMenuOpen, menuOpen }) => {
 							<ul>
 								<li>
 									<img
-										src="assets/img/icon/sidebar-icon-1.png"
-										className="img-fluid"
-										alt="icon-img"
-									/>
-									86 broklyn street road, New York
-								</li>
-								<li>
-									<img
 										src="assets/img/icon/footer-icon-1.png"
 										className="img-fluid"
 										alt="icon-img"
 									/>
-									<a href="mailto:info@sycho24.com">needhelp@company.com</a>
+									<a href="mailto:info@sycho24.com">
+										info@cyberinfotechuae.com
+									</a>
 								</li>
 								<li>
 									<img
@@ -176,7 +172,7 @@ const BurgerMenus = ({ setMenuOpen, menuOpen }) => {
 										className="img-fluid"
 										alt="icon-img"
 									/>
-									<a href="tel:926668880000">92 666 888 0000</a>
+									<a href="tel:971521954262">+971 52 195 4262</a>
 								</li>
 							</ul>
 							<div className="sidebar__menu--social">

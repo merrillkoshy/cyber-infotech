@@ -34,8 +34,9 @@ const Footer = () => {
 									</Link>
 								</div>
 								<p className="mb-20 pr-35">
-								We specialize in understanding your company’s IT requirement and providing customized solutions based on the need of the customer.
-
+									We specialize in understanding your company’s IT requirement
+									and providing customized solutions based on the need of the
+									customer.
 								</p>
 								<div className="footer-social">
 									<a href="#" target="_blank">
@@ -107,8 +108,8 @@ const Footer = () => {
 											className="img-fluid"
 											alt="icon-img"
 										/>
-										<a href="mailto:needhelp@company.com">
-											needhelp@company.com
+										<a href="mailto:info@cyberinfotechuae.com">
+											info@cyberinfotechuae.com
 										</a>
 									</li>
 									<li>
@@ -117,7 +118,7 @@ const Footer = () => {
 											className="img-fluid"
 											alt="icon-img"
 										/>
-										<a href="tel:926668880000">92 666 888 0000</a>
+										<a href="tel:971521954262">971 52 195 4262</a>
 									</li>
 								</ul>
 							</div>

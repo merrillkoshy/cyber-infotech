@@ -16,6 +16,12 @@ footer {
 			background: $heading-color;
 		}
 	}
+	.footer-logo {
+		img {
+			width: 30vmin;
+			height: auto;
+		}
+	}
 }
 .widget-title {
 	font-size: 20px;
@@ -57,7 +63,7 @@ footer {
 					@include transition(0.3s);
 				}
 				&:hover {
-					color: $white-color;
+					color: $theme-color;
 					&:before {
 						width: 100%;
 						left: 0px;
