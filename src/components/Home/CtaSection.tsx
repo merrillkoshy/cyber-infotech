@@ -15,7 +15,7 @@ class Cta extends Component {
                             </div>
                             <div className="cta-number-text fix">
                                 <span className="uppercase">Call us</span>
-                                <h3><a href="tell:971521954262">+971 52 195 4262</a></h3>
+                                <h3><a href="tel:971521954262">+971 52 195 4262</a></h3>
                             </div>
                         </div>
                         {/* <div className="cta-description">

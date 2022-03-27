@@ -43,7 +43,9 @@ const Mission = () => {
 					</div>
 					<div className="col-xl-6 col-lg-6">
 						<div className="section-title-wrapper mb-25">
-							<p className="about-us-text pt-100">
+						<h5 className="section-subtitle mb-20">get to know us</h5>
+								<h2 className="section-title mb-35">We CI</h2>
+							<p className="about-us-text pt-25">
 								Cyber InfoTech is a market leading company in the field of all
 								IT Related trading and services in UAE under the group of Morris
 								elevators which is established on 2011 in Abu Dhabi who is
@@ -55,7 +57,7 @@ const Mission = () => {
 								clients in UAE. We offer full-fledged it support for all the
 								clients who is approaching us.
 							</p>
-							<p className="about-us-text pt-100">
+							<p className="about-us-text pt-50">
 							We specialize in understanding your company’s IT requirement and providing customized solutions based on the need of the customer.
 
 							</p>

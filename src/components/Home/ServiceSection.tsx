@@ -56,7 +56,7 @@ const Service = () => {
 								<div className="kservice text-center mb-20">
 									<div className="kservice-icon">
 										<i>
-											<FontAwesomeIcon icon={["fas", "edit"]} />
+											<FontAwesomeIcon icon={["far", "hdd"]} />
 										</i>
 									</div>
 									<div className="kservice-content">
@@ -72,7 +72,7 @@ const Service = () => {
 								<div className="kservice text-center mb-20">
 									<div className="kservice-icon">
 										<i>
-											<FontAwesomeIcon icon={["fas", "chart-line"]} />
+											<FontAwesomeIcon icon={["fas", "print"]} />
 										</i>
 									</div>
 									<div className="kservice-content">
@@ -88,7 +88,7 @@ const Service = () => {
 								<div className="kservice text-center mb-20">
 									<div className="kservice-icon">
 										<i>
-											<FontAwesomeIcon icon={["fas", "chart-bar"]} />
+											<FontAwesomeIcon icon={["fas", "database"]} />
 										</i>
 									</div>
 									<div className="kservice-content">
@@ -104,9 +104,7 @@ const Service = () => {
 								<div className="kservice text-center mb-20">
 									<div className="kservice-icon">
 										<i>
-											<FontAwesomeIcon
-												icon={["fas", "american-sign-language-interpreting"]}
-											/>
+											<FontAwesomeIcon icon={["fas", "wrench"]} />
 										</i>
 									</div>
 									<div className="kservice-content">
