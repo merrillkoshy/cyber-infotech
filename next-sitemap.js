@@ -1,5 +1,5 @@
 module.exports = {
-	siteUrl: "https://www.gulfmotorcycles.com",
+	siteUrl: "https://www.cyberinfotechuae.com",
 	changefreq: "daily",
 	priority: 0.7,
 	sitemapSize: 5000,
