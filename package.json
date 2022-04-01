@@ -6,6 +6,7 @@
 	"scripts": {
 		"dev": "next dev",
 		"build": "next build",
+		"postbuild": "next-sitemap",
 		"start": "next start",
 		"lint": "next lint",
 		"test": "jest --watch",
@@ -35,6 +36,7 @@
 		"next-images": "^1.4.0",
 		"next-offline": "^5.0.5",
 		"next-redux-wrapper": "^4.0.1",
+		"next-sitemap": "^2.5.17",
 		"node-sass": "^4.14.1",
 		"nodemailer": "^6.7.2",
 		"package.json": "^2.0.1",
