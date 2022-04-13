@@ -57,7 +57,7 @@ const Form = () => {
 						<div className="col-xxl-12 col-xl-12 col-lg-12 mb-20">
 							<textarea
 								className="form-control"
-								placeholder="Write Massage"
+								placeholder="Your Message..."
 								name="subject"
 							></textarea>
 						</div>
